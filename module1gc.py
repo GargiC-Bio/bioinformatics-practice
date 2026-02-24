@@ -1,4 +1,4 @@
-nano gcfinal.py
+
 dna="agcggtacgtgaccatgacgtgcacatgcagtagc"
 no_c = dna.count('c')
 no_g = dna.count('g')

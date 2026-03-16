@@ -1,6 +1,6 @@
-‴This is my first Python program‴
+#This is my first Python program
 # get DNA sequence:
-dna="agcggtacgtgaccatgacgtgcacatgcagtagc" 
+dna=input("Enter a DNA sequence, please:") 
 no_c = dna.count('c') # count C's in DNA sequence
 no_g = dna.count('g') # count G's in DNA sequence
 dna_length = len(dna) # get the length of the DNA sequence 

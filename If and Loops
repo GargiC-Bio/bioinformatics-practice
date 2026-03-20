@@ -4,7 +4,8 @@ if 'n' in dna or 'N' in dna:
     Nnbases=dna.count('n')+dna.count('N')
     print("dna sequence has %d undefined bases " % Nnbases)
 elif 'n' in dna and 'N' in dna:
-    nbases=dna.count('n')+dna.count('N')
-    print("dna sequence has %d undefined bases " % nbases)
+    vbases=dna.count('n')+dna.count('N')
+    print("dna sequence has %d undefined bases " % vbases)
 else:
     print('dna sequence has no undefined bases')
+

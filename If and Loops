@@ -9,3 +9,4 @@ elif 'n' in dna and 'N' in dna:
 else:
     print('dna sequence has no undefined bases')
 
+

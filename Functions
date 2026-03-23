@@ -15,3 +15,17 @@ sentence.split()
 '-'.join(['enzymes', 'and', 'other', 'proteins',
 'come', 'in', 'many', 'shapes'])
 'enzymes-and-other-proteins-come-in-many-shapes'
+
+#Variable number of function arguments
+def newfunction(first, second, third, *therest):
+    print("First: %s" % first)
+    print("Second: %s" % second)
+    print("Third: %s" % third)
+    print("And all the rest...", therest)
+    return
+
+newfunction(1, 2, 3, 4, 5)
+First: 1
+Second: 2
+Third: 3
+And all the rest... (4, 5)

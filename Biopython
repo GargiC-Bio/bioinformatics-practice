@@ -1,1 +1,16 @@
+# checking if biopython is installed :
+import Bio
+print(Bio.**version**)
+
+
+# running BLAST over the internet :
+from Bio.Blast import NCBIWWW
+fasta_string = open("myseq.fa").read()
+result_handle = NCBIWWW.qblast("blastn",
+"nt", fasta_string)
+
+
+# the BLAST record :
+from Bio.Blast import NCBIXML
+blast_record = NCBIXML.read(result_handle)
 

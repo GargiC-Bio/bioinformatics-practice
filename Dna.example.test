@@ -1,0 +1,16 @@
+# how many records are in the file:
+import os
+
+# This part checks if the file exists before trying to open it
+file_name = 'dna.example (1).fasta'
+
+if os.path.exists(file_name):
+    count = 0
+    with open(file_name, 'r') as f:
+        for line in f:
+            if line.startswith('>'):
+                count += 1
+    print(f"The number of records in the file is: {count}")
+else:
+    print(f"Error: The file '{file_name}' was not found in this folder.")
+    print("Files currently in this folder are:", os.listdir('.'))

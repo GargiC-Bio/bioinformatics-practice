@@ -1,4 +1,4 @@
-# how many records are in the file:
+# (1) how many records are in the file:
 import os
 
 # This part checks if the file exists before trying to open it

@@ -18,5 +18,5 @@ dna_data = input("Enter DNA sequence:")
 
 # Call the function and print the result
 result = gc(dna_data)
-print("The DNA sequence's GC percentage is %5.4f%%:"%result)
+print("The DNA sequence's GC percentage is %5.4f%%:"%result) # print GC% to screen
   help(gc)

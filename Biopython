@@ -14,3 +14,6 @@ result_handle = NCBIWWW.qblast("blastn",
 from Bio.Blast import NCBIXML
 blast_record = NCBIXML.read(result_handle)
 
+
+# To find out more :
+help(NCBIWWW.qblast)
